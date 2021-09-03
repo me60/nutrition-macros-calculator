@@ -1,0 +1,32 @@
+- Dir
+  ~~~
+	- Component
+	  ~~~~~~~~~
+
+. = 1
++ = 1 or more
+* = any amount
+
+- Headers
+	- TopBanner.
+	- Header.
+- Daily Meals
+	- Choices.
+		- BreakfastChoices.
+			- Choices.
+				- Choice*
+		- LunchChoices.
+			- Choices.
+				- Choice*
+		- DinnerChoices.
+			- Choices.
+				- Choice*
+- Daily Results
+	- ResultsBanner
+- New Meal
+	- NewMealBanner.
+	- NameEnterBanner.
+	- NutritionBanner.
+	- SubmitBanner.
+- Meal Editor
+	- MealChoices
